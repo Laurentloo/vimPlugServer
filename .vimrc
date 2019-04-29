@@ -27,6 +27,8 @@ set background=dark
 
 Plug 'mileszs/ack.vim'
 let g:ackprg = 'ag --nogroup --nocolor --column' "map ack to ag
+	
+Plug 'vim-airline/vim-airline'
 
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer',  'for': ['c', 'cpp'] }
 "let g:ycm_global_ycm_extra_conf='~/.vim/plugged/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
